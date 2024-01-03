@@ -16,11 +16,13 @@ context('my first test', ()=>{
   })
 
   it('access querying page', () => {
-    cy.get('li a').contains('Querying').click({})
+    cy.get('li a').contains('Querying')
     cy.get('h1').should('exist')
+    
     
     
   })
 
 } )
+
 
