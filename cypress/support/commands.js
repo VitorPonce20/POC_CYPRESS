@@ -27,3 +27,13 @@
 Cypress.Commands.add('clickLink', (label) => {
     cy.get('a').contains(label).click()
   })
+
+var url = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login';
+
+function obterUrlOrangeHRM(){
+  
+  }
+
+Cypress.Commands.add('accessOrangeHRM', (url) => {
+
+  })
